@@ -1,0 +1,98 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+:root {
+  font-size: 62.5%;
+}
+
+body {
+  font-family: 'Open Sans', sans-serif;
+  /* max-width: 120rem; */
+  margin: 0 auto;
+  text-align: center;
+}
+
+main {
+  width: 70%;
+  margin: 6.4rem auto 6.4rem;
+}
+
+main img {
+  margin-bottom: 3.2rem;
+  width: 50%;
+}
+
+h1 {
+  font-family: 'Dosis', sans-serif;
+  margin-bottom: 1.6rem;
+
+  font-size: 3.2rem;
+  font-weight: 500;
+  line-height: 4rem;
+
+  color: #3f3d56;
+}
+
+h1 span {
+  color: #ee24ff;
+  font-weight: bold;
+}
+
+p {
+  font-weight: 400;
+  font-size: 1.5rem;
+  line-height: 2.2rem;
+
+  color: #828282;
+}
+
+p span {
+  font-weight: 700;
+  color: #3f3d56;
+}
+
+#text {
+  width: 70%;
+  margin: 0 auto;
+}
+
+#paragraph {
+  display: flex;
+  flex-direction: column;
+  gap: 3rem;
+}
+
+#linksFooter {
+  display: flex;
+  justify-content: center;
+  gap: 4.2rem;
+  border-top: 1px solid #eceff2;
+  margin: 0 auto 4rem;
+  width: 45%;
+  padding-top: 1.6rem;
+}
+
+footer img {
+  width: 100%;
+}
+
+footer a {
+  text-decoration: none;
+  font-weight: 700;
+  font-size: 1.5rem;
+
+  color: #3f3d56;
+}
+
+/*
+colors {
+  color: #828282; Cinza Claro
+  color: #3f3d56; Cinza Escuro
+  color: #eceff2; Branco do Projeto
+  color: #ee24ff; Rosa
+  color: #ffffff; Branco padrão
+}
+*/
